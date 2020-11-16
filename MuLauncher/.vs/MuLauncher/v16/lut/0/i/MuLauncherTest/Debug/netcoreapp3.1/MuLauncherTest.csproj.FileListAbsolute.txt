@@ -1,0 +1,14 @@
+D:\c-sharp-projects\MuLauncher\.vs\MuLauncher\v16\lut\0\b\MuLauncherTest\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+D:\c-sharp-projects\MuLauncher\.vs\MuLauncher\v16\lut\0\b\MuLauncherTest\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+D:\c-sharp-projects\MuLauncher\.vs\MuLauncher\v16\lut\0\b\MuLauncherTest\Debug\netcoreapp3.1\nunit.engine.dll
+D:\c-sharp-projects\MuLauncher\.vs\MuLauncher\v16\lut\0\b\MuLauncherTest\Debug\netcoreapp3.1\nunit.engine.api.dll
+D:\c-sharp-projects\MuLauncher\.vs\MuLauncher\v16\lut\0\b\MuLauncherTest\Debug\netcoreapp3.1\MuLauncherTest.deps.json
+D:\c-sharp-projects\MuLauncher\.vs\MuLauncher\v16\lut\0\b\MuLauncherTest\Debug\netcoreapp3.1\MuLauncherTest.runtimeconfig.json
+D:\c-sharp-projects\MuLauncher\.vs\MuLauncher\v16\lut\0\b\MuLauncherTest\Debug\netcoreapp3.1\MuLauncherTest.runtimeconfig.dev.json
+D:\c-sharp-projects\MuLauncher\.vs\MuLauncher\v16\lut\0\b\MuLauncherTest\Debug\netcoreapp3.1\MuLauncherTest.dll
+D:\c-sharp-projects\MuLauncher\.vs\MuLauncher\v16\lut\0\i\MuLauncherTest\Debug\netcoreapp3.1\MuLauncherTest.AssemblyInfoInputs.cache
+D:\c-sharp-projects\MuLauncher\.vs\MuLauncher\v16\lut\0\i\MuLauncherTest\Debug\netcoreapp3.1\MuLauncherTest.AssemblyInfo.cs
+D:\c-sharp-projects\MuLauncher\.vs\MuLauncher\v16\lut\0\i\MuLauncherTest\Debug\netcoreapp3.1\MuLauncherTest.csproj.CopyComplete
+D:\c-sharp-projects\MuLauncher\.vs\MuLauncher\v16\lut\0\i\MuLauncherTest\Debug\netcoreapp3.1\MuLauncherTest.dll
+D:\c-sharp-projects\MuLauncher\.vs\MuLauncher\v16\lut\0\i\MuLauncherTest\Debug\netcoreapp3.1\MuLauncherTest.genruntimeconfig.cache
+D:\c-sharp-projects\MuLauncher\.vs\MuLauncher\v16\lut\0\i\MuLauncherTest\Debug\netcoreapp3.1\MuLauncherTest.csprojAssemblyReference.cache

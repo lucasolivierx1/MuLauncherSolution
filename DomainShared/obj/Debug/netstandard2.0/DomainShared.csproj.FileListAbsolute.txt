@@ -1,0 +1,9 @@
+D:\c-sharp-projects\DomainShared\bin\Debug\netstandard2.0\DomainShared.deps.json
+D:\c-sharp-projects\DomainShared\bin\Debug\netstandard2.0\DomainShared.dll
+D:\c-sharp-projects\DomainShared\bin\Debug\netstandard2.0\DomainShared.pdb
+D:\c-sharp-projects\DomainShared\obj\Debug\netstandard2.0\DomainShared.csprojAssemblyReference.cache
+D:\c-sharp-projects\DomainShared\obj\Debug\netstandard2.0\DomainShared.AssemblyInfoInputs.cache
+D:\c-sharp-projects\DomainShared\obj\Debug\netstandard2.0\DomainShared.AssemblyInfo.cs
+D:\c-sharp-projects\DomainShared\obj\Debug\netstandard2.0\DomainShared.csproj.CoreCompileInputs.cache
+D:\c-sharp-projects\DomainShared\obj\Debug\netstandard2.0\DomainShared.dll
+D:\c-sharp-projects\DomainShared\obj\Debug\netstandard2.0\DomainShared.pdb
