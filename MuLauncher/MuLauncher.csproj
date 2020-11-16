@@ -209,5 +209,14 @@
       <Name>DomainShared</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="variants\mubrgames\Resources\mubrgames_close.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="variants\mubrgames\Resources\mubrgames_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="variants\mubrgames\Resources\mubrgames_minimize.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

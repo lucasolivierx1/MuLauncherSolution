@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MuLauncher.Properties;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -12,12 +13,12 @@ namespace MuLauncher.variants.mubrgames.components
     {
         public override Image getButtonDisabledImage()
         {
-            throw new NotImplementedException();
+            return Resources.mubrgames_close;
         }
 
         public override Image getButtonEnabledImage()
         {
-            throw new NotImplementedException();
+            return Resources.mubrgames_close;
         }
 
         public override Image getButtonOnHolderImage()
@@ -32,17 +33,32 @@ namespace MuLauncher.variants.mubrgames.components
 
         public override Size getSize()
         {
-            throw new NotImplementedException();
+            return new Size(12, 12);
         }
 
         public override Point GetPosition()
         {
-            return new Point(0,0);
+            return new Point(1000,10);
         }
 
         public override void Build(Form pForm)
         {
-            //throw new NotImplementedException();
+            Button button = new Button();
+            button.Size = getSize();
+            button.Location = GetPosition();
+            button.Text = "";
+            button.BackgroundImage = getButtonEnabledImage();
+            button.TabStop = false;
+            button.FlatStyle = FlatStyle.Flat;
+            button.FlatAppearance.BorderSize = 0;
+            button.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            button.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button.BackColor = Color.Transparent;
+
+            component = button;
+
+            pForm.Controls.Add(component);
+
         }
     }
 }

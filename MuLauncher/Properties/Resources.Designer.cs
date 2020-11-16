@@ -63,6 +63,16 @@ namespace MuLauncher.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap mubrgames_close {
+            get {
+                object obj = ResourceManager.GetObject("mubrgames_close", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap mubrgames_jogar_disabled {
             get {
                 object obj = ResourceManager.GetObject("mubrgames_jogar_disabled", resourceCulture);
@@ -96,6 +106,16 @@ namespace MuLauncher.Properties {
         public static System.Drawing.Bitmap mubrgames_launcher_background {
             get {
                 object obj = ResourceManager.GetObject("mubrgames_launcher_background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap mubrgames_minimize {
+            get {
+                object obj = ResourceManager.GetObject("mubrgames_minimize", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

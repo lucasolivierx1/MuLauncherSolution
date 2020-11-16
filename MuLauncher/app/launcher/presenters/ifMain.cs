@@ -51,6 +51,11 @@ namespace MuLauncher
             controller.Container.WebSiteButton.component.MouseUp += btn_website_MouseUp;
             controller.Container.WebSiteButton.component.Click += btn_website_Click;
 
+
+            controller.Container.CloseButton.component.Click += btn_close_Click;
+
+            controller.Container.MinimizeButton.component.Click += btn_minimize_Click;
+
             #region Subscribles
             controller.MsgSubj.Subscribe((value) => this.Invoke((MethodInvoker)delegate
             {
@@ -152,6 +157,18 @@ namespace MuLauncher
         private void btn_website_Click(object sender, EventArgs e)
         {
             controller.openExternalLinkCall(controller.Config.WebSiteURL);
+        }
+
+
+        private void btn_close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+
+        private void btn_minimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
 
 
