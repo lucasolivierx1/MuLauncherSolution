@@ -10,7 +10,7 @@ namespace MuLauncher.variants.mubrgames
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
+           // Application.EnableVisualStyles();
 
             Application.SetCompatibleTextRenderingDefault(false);
          

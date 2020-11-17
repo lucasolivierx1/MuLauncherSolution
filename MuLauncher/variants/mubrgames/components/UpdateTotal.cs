@@ -12,7 +12,7 @@ namespace MuLauncher.variants.mubrgames.components
     {
         public override Point GetPosition()
         {
-            return new Point(355, 560);
+            return new Point(355, 570);
         }
 
         public override Font getFont()
@@ -50,6 +50,7 @@ namespace MuLauncher.variants.mubrgames.components
             label.BackColor = Color.Transparent;
             label.Text = "TOTAL";
 
+            label.AutoSize = true;
             component = label;
             pForm.Controls.Add(label);
         }

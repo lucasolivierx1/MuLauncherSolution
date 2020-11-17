@@ -34,6 +34,10 @@ namespace MuLauncher.variants
 
         private WebViewComponent webView;
 
+        private LauncherProgressBar totalProgressBar;
+
+        private LauncherProgressBar currentProgressBar;
+
         public LauncherLayout LauncherLayout { get => launcherLayout; set => launcherLayout = value; }
         public LauncherButton PlayButton { get => playButton; set => playButton = value; }
         public LauncherButton ConfigButton { get => configButton; set => configButton = value; }
@@ -48,6 +52,8 @@ namespace MuLauncher.variants
         public LauncherText UpdatePercent { get => updatePercent; set => updatePercent = value; }
         public LauncherText MessageUpdate { get => messageUpdate; set => messageUpdate = value; }
         public WebViewComponent WebView { get => webView; set => webView = value; }
+        public LauncherProgressBar TotalProgressBar { get => totalProgressBar; set => totalProgressBar = value; }
+        public LauncherProgressBar CurrentProgressBar { get => currentProgressBar; set => currentProgressBar = value; }
 
         public LauncherContainer() { 
         

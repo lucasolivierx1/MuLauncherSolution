@@ -37,7 +37,7 @@ namespace MuLauncher.variants.mubrgames.components
         }
         public override Point GetPosition()
         {
-            return new Point(36, 520);
+            return new Point(36, 530);
         }
 
         public override void Build(Form pForm)

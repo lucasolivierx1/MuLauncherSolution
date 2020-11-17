@@ -119,6 +119,12 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="app\launcher\presenters\ifMainController.cs" />
+    <Compile Include="SmoothProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SmoothProgressBar.Designer.cs">
+      <DependentUpon>SmoothProgressBar.cs</DependentUpon>
+    </Compile>
     <Compile Include="variants\mubrgames\components\BrGamesLauncherLayout.cs" />
     <Compile Include="variants\mubrgames\components\BrWebView.cs" />
     <Compile Include="variants\mubrgames\components\CloseButton.cs" />
@@ -127,6 +133,8 @@
     <Compile Include="variants\mubrgames\components\MessageText.cs" />
     <Compile Include="variants\mubrgames\components\MinimizeButton.cs" />
     <Compile Include="variants\mubrgames\components\PlayButton.cs" />
+    <Compile Include="variants\mubrgames\components\CurrentProgressBar.cs" />
+    <Compile Include="variants\mubrgames\components\TotalProgressBar.cs" />
     <Compile Include="variants\mubrgames\components\SaveButton.cs" />
     <Compile Include="variants\mubrgames\components\UpdateTotal.cs" />
     <Compile Include="variants\mubrgames\components\WebSiteButton.cs" />

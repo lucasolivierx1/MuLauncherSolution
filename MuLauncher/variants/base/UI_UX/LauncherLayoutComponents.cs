@@ -73,4 +73,18 @@ namespace MuLauncher.variants
         public abstract bool IsBold();
 
     }
+
+    public abstract class LauncherProgressBar : ComponentDefault, IPosition
+    {
+
+   
+        virtual public Point GetPosition()
+        {
+            throw new NotImplementedException();
+        }
+
+        public abstract Color getColor();
+        public abstract Color getColorDark();
+
+    }
 }

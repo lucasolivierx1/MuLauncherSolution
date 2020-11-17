@@ -21,6 +21,9 @@ namespace MuLauncher.variants.mubrgames
             this.UpdateTotal = new UpdateTotal();
             this.MessageUpdate = new MessageText();
             this.WebView = new BrWebView();
+            this.TotalProgressBar = new TotalProgressBar();
+            this.CurrentProgressBar = new CurrentProgressBar();
         }
+
     }
 }

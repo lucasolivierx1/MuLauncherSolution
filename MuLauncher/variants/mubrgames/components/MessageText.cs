@@ -12,7 +12,7 @@ namespace MuLauncher.variants.mubrgames.components
     {
         public override Point GetPosition()
         {
-            return new Point(580, 550);
+            return new Point(420, 550);
         }
         public override Font getFont()
         {
@@ -21,7 +21,7 @@ namespace MuLauncher.variants.mubrgames.components
 
         public override Size getSize()
         {
-            return new Size(400, 20);
+            return new Size(550, 20);
         }
 
         public override Color getTextColor()
@@ -39,8 +39,9 @@ namespace MuLauncher.variants.mubrgames.components
             Label label = new Label();
             label.ForeColor = getTextColor();
             label.Location = GetPosition();
-            label.AutoSize = true;
             label.Text = "";
+            label.Size = getSize();
+            label.TextAlign = ContentAlignment.MiddleCenter;
 
             if (IsBold())
                 label.Font = new Font(Label.DefaultFont, FontStyle.Bold);

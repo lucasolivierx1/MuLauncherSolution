@@ -65,7 +65,8 @@ namespace MuLauncher.ui
             container.WebSiteButton.Build(pForm);
             container.UpdateTotal.Build(pForm);
             container.WebView.Build(pForm);
-
+            container.TotalProgressBar.Build(pForm);
+            container.CurrentProgressBar.Build(pForm);
         }
 
         #region UseCases

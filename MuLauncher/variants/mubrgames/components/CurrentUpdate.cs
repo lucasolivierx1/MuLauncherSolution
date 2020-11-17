@@ -32,7 +32,7 @@ namespace MuLauncher.variants.mubrgames.components
 
         public override Point GetPosition()
         {
-            return new Point(355,580);
+            return new Point(345,590);
         }
         public override void Build(Form pForm)
         {
@@ -42,12 +42,13 @@ namespace MuLauncher.variants.mubrgames.components
             label.ForeColor = getTextColor();
             label.Location = GetPosition();
 
-
             if (IsBold())
                 label.Font = new Font(Label.DefaultFont, FontStyle.Bold);
 
             label.BackColor = Color.Transparent;
             label.Text = "UPDATE";
+
+            label.AutoSize = true;
 
             component = label;
             pForm.Controls.Add(label);

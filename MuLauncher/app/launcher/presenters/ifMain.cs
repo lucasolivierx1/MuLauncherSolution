@@ -75,6 +75,7 @@ namespace MuLauncher
             }));
 
             #endregion
+
             (controller.Container.WebView.component as WebBrowser).Navigate(controller.Config.BaseURL);
             InitializeComponent();
         }
@@ -82,9 +83,11 @@ namespace MuLauncher
         private void ifMain_Shown(object sender, EventArgs e)
         {
             controller.Container.LauncherLayout.Build(this);
-            
-            
 
+            (controller.Container.TotalProgressBar.component as SmoothProgressBar).Value = 50;
+            (controller.Container.TotalProgressBar.component as SmoothProgressBar).Maximum = 100;
+            (controller.Container.CurrentProgressBar.component as SmoothProgressBar).Value = 50;
+            (controller.Container.CurrentProgressBar.component as SmoothProgressBar).Maximum = 100;
 
             timer1.Enabled = true;
 
@@ -178,7 +181,6 @@ namespace MuLauncher
                 controller.Container.WebSiteButton.component.BackgroundImage = controller.Container.WebSiteButton.getButtonOnPressedImage();
             else
                 controller.Container.WebSiteButton.component.BackgroundImage = controller.Container.WebSiteButton.getButtonEnabledImage();
-
         }
 
         #endregion
