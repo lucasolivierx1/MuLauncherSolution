@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5JsrBvE/PizXGGrmMg9O5TD7PO2GCYbwJnpz+QWnmmaKOV2l7GNDkEUkzP+keOoFIOIRSYrU5XxIQC70mBNK7g==",
+  "dgSpecHash": "iw9n93pRnyhuvqaVJ759Lv5tabsjPdMHbVVsijLO/UeFv6MmRBIzDZCAI0EaqATNJ+JloNw4zefPSB/w6eh6sA==",
   "success": true,
-  "projectFilePath": "D:\\c-sharp-projects\\DomainShared\\DomainShared.csproj",
+  "projectFilePath": "P:\\MuBrGames\\MuLauncherSolution\\DomainShared\\DomainShared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

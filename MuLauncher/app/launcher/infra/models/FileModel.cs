@@ -27,6 +27,9 @@ namespace MuLauncher.app.launcher.infra.models
             return JsonConvert.DeserializeObject<FileModel>(json);
         }
 
+        String toJson() {
+            return JsonConvert.SerializeObject(this);
+        }
       
         DownloadFile toDownloadFile() {
             return this as DownloadFile;

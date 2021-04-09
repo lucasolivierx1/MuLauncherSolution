@@ -7,3 +7,12 @@ D:\c-sharp-projects\DomainShared\obj\Debug\netstandard2.0\DomainShared.AssemblyI
 D:\c-sharp-projects\DomainShared\obj\Debug\netstandard2.0\DomainShared.csproj.CoreCompileInputs.cache
 D:\c-sharp-projects\DomainShared\obj\Debug\netstandard2.0\DomainShared.dll
 D:\c-sharp-projects\DomainShared\obj\Debug\netstandard2.0\DomainShared.pdb
+P:\MuBrGames\MuLauncherSolution\DomainShared\bin\Debug\netstandard2.0\DomainShared.deps.json
+P:\MuBrGames\MuLauncherSolution\DomainShared\bin\Debug\netstandard2.0\DomainShared.dll
+P:\MuBrGames\MuLauncherSolution\DomainShared\bin\Debug\netstandard2.0\DomainShared.pdb
+P:\MuBrGames\MuLauncherSolution\DomainShared\obj\Debug\netstandard2.0\DomainShared.csprojAssemblyReference.cache
+P:\MuBrGames\MuLauncherSolution\DomainShared\obj\Debug\netstandard2.0\DomainShared.AssemblyInfoInputs.cache
+P:\MuBrGames\MuLauncherSolution\DomainShared\obj\Debug\netstandard2.0\DomainShared.AssemblyInfo.cs
+P:\MuBrGames\MuLauncherSolution\DomainShared\obj\Debug\netstandard2.0\DomainShared.csproj.CoreCompileInputs.cache
+P:\MuBrGames\MuLauncherSolution\DomainShared\obj\Debug\netstandard2.0\DomainShared.dll
+P:\MuBrGames\MuLauncherSolution\DomainShared\obj\Debug\netstandard2.0\DomainShared.pdb

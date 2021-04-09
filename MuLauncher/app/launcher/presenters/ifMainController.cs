@@ -62,6 +62,7 @@ namespace MuLauncher.ui
             container.MinimizeButton.Build(pForm);
             container.PlayButton.Build(pForm);
             container.SaveButton.Build(pForm);
+
             container.WebSiteButton.Build(pForm);
             container.UpdateTotal.Build(pForm);
             container.WebView.Build(pForm);

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\c-sharp-projects\\DomainShared\\DomainShared.csproj": {}
+    "P:\\MuBrGames\\MuLauncherSolution\\DomainShared\\DomainShared.csproj": {}
   },
   "projects": {
-    "D:\\c-sharp-projects\\DomainShared\\DomainShared.csproj": {
+    "P:\\MuBrGames\\MuLauncherSolution\\DomainShared\\DomainShared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c-sharp-projects\\DomainShared\\DomainShared.csproj",
+        "projectUniqueName": "P:\\MuBrGames\\MuLauncherSolution\\DomainShared\\DomainShared.csproj",
         "projectName": "DomainShared",
-        "projectPath": "D:\\c-sharp-projects\\DomainShared\\DomainShared.csproj",
+        "projectPath": "P:\\MuBrGames\\MuLauncherSolution\\DomainShared\\DomainShared.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "D:\\c-sharp-projects\\DomainShared\\obj\\",
+        "outputPath": "P:\\MuBrGames\\MuLauncherSolution\\DomainShared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

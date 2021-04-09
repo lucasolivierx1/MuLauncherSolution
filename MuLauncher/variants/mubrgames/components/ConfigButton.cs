@@ -51,6 +51,7 @@ namespace MuLauncher.variants.mubrgames.components
             button.TabStop = false;
             button.FlatStyle = FlatStyle.Flat;
             button.FlatAppearance.BorderSize = 0;
+            
             component = button;
             pForm.Controls.Add(component);
 

@@ -52,6 +52,11 @@ namespace MuLauncher
             controller.Container.WebSiteButton.component.Click += btn_website_Click;
 
 
+            controller.Container.ConfigButton.component.Click += btn_config_Click;
+            controller.Container.ConfigButton.component.MouseDown += btn_config_MouseDown;
+            controller.Container.ConfigButton.component.MouseUp += btn_config_MouseUp;
+
+
             controller.Container.CloseButton.component.Click += btn_close_Click;
 
             controller.Container.MinimizeButton.component.Click += btn_minimize_Click;
@@ -106,12 +111,6 @@ namespace MuLauncher
             controller.checkUpdateCall();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            ifConfig config = new ifConfig();
-            config.Show();
-        }
-
         #region MoveForm with Mouse Implementation
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
@@ -142,6 +141,8 @@ namespace MuLauncher
                 controller.Container.ConfigButton.component.BackgroundImage = controller.Container.ConfigButton.getButtonEnabledImage();
 
         }
+
+
 
         #endregion
 
@@ -183,6 +184,7 @@ namespace MuLauncher
                 controller.Container.WebSiteButton.component.BackgroundImage = controller.Container.WebSiteButton.getButtonEnabledImage();
         }
 
+
         #endregion
 
         #region btn_play_mouse
@@ -211,14 +213,24 @@ namespace MuLauncher
 
         #endregion
 
+
+        #region ConfigButton 
+ 
+
         private void btn_config_Click(object sender, EventArgs e)
         {
-
+              
+            ifConfig config = new ifConfig();
+            config.Show();
         }
 
         private void btn_play_Paint(object sender, PaintEventArgs e)
         {
 
         }
+
+
+
+        #endregion
     }
 }
